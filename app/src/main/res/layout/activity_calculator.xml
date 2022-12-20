@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="6dp"
+    android:background="#000000"
+    tools:context=".calculator">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Calculate Dil se 😉"
+        android:textAlignment="center"
+        android:textColor="#DDF0FF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="50dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/res"
+        android:text="✨ Result ✨"
+        android:textAlignment="center"
+        android:textColor="#DDF0FF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"/>
+    <EditText
+    android:inputType="numberDecimal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/n1"
+    android:hint="Enter the number "
+    android:background="#7A7A7A"
+    android:textSize="30dp"
+    android:layout_marginBottom="10dp"/>
+    <EditText
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/n2"
+        android:background="#707070"
+        android:hint="Enter the number"
+        android:textSize="30sp"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_design"
+            android:text="Addition 😉"
+            android:textColor="#89E8F4"
+            android:layout_marginRight="8dp"
+            android:textSize="22sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/sub"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_design"
+            android:text="Subtraction😃"
+            android:textColor="#89E8F4"
+            android:textSize="22sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/mul"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_design"
+            android:text="Product 🤔"
+            android:textColor="#89E8F4"
+            android:layout_marginRight="8dp"
+            android:textSize="22sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/div"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_design"
+            android:text="Divison 😉"
+            android:textColor="#89E8F4"
+            android:textSize="22sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_design"
+            android:text="Sin ☺"
+            android:textColor="#89E8F4"
+            android:layout_marginRight="8dp"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/cos"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_design"
+            android:text="Cos 😊"
+            android:textColor="#89E8F4"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Keep Calculating...with ❤ Sweta"
+        android:textAlignment="center"
+        android:textColor="#DDF0FF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FF000000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Soul Adores ❤"
+        android:textAlignment="center"
+        android:textColor="#FBE5E5"
+        android:textSize="55dp"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:fontFamily="cursive"
+        android:text="dsfs"
+        android:textColor="#FBE5E5"
+        android:textSize="40dp"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_design"
+        android:id="@+id/changedate"
+        android:text="CHANGE DATE"
+        android:layout_marginBottom="10dp"
+        android:textColor="#fff"
+        android:textSize="24sp"/>
+
+     <!--<DatePicker
+        android:id="@+id/datepicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:layout_marginBottom="8dp"/> -->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/broadcast"
+        android:textSize="24sp"
+        android:background="@drawable/button_design"
+        android:textColor="#fff"
+        android:onClick="genrateBroadCast"
+        android:text="SEND BROADCAST"/>
+
+
+</LinearLayout>

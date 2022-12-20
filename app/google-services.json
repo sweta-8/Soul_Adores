@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1072686321251",
+    "firebase_url": "https://arctic-task-292011.firebaseio.com",
+    "project_id": "arctic-task-292011",
+    "storage_bucket": "arctic-task-292011.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072686321251:android:b15020c38252b0e7b43256",
+        "android_client_info": {
+          "package_name": "com.sweta.soul_adores"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072686321251-2fj5ldob4kfmsklol6f6copmveqnpao2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sweta.soul_adores",
+            "certificate_hash": "b18b67264f50b55cc7ba2c3a1cc412db2917f6f2"
+          }
+        },
+        {
+          "client_id": "1072686321251-tmqj1rsc1cn1uvbh7d6tpiunf9vbr0gk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5tgFJGNitRzqAXXtZKilsgPrmPWGwApc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072686321251-tmqj1rsc1cn1uvbh7d6tpiunf9vbr0gk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

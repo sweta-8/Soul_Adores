@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MusicService">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/song1"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#DC8FA9"
+        android:fontFamily="cursive"
+        android:text="Play New Song"
+        android:textColor="#6C092B"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:background="#DC8FA9"
+        android:fontFamily="cursive"
+        android:text="STOP Song"
+        android:textColor="#5C0724"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="Songs from Sweta's current playlist 🙂"
+        android:textAlignment="center"
+        android:textColor="#081350"
+        android:textSize="30sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#B7D2E8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sweta loves to code 🎀"
+        android:textAlignment="center"
+        android:textColor="#D8ACBB"
+        android:textSize="36sp"
+        android:background="#000000"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/count"
+        android:text="COUNT : 0 🤗"
+        android:textAlignment="center"
+        android:textColor="#5C0422"
+        android:textSize="36sp"
+        android:background="#F4A3BF"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/inc"
+        android:text="Increment ☺"
+        android:textAlignment="center"
+        android:textColor="#012202"
+        android:textSize="36sp"
+        android:background="#0AE413"
+        android:textStyle="italic"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dec"
+        android:text="Decrement 🙄"
+        android:textAlignment="center"
+        android:textColor="#810202"
+        android:textSize="36sp"
+        android:background="#FF2222"
+        android:textStyle="italic"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/res"
+        android:text="Reset Counter 😐"
+        android:textAlignment="center"
+        android:textColor="#8F8103"
+        android:textSize="36sp"
+        android:background="#FFE500"
+        android:textStyle="italic"
+        android:layout_marginBottom="10dp"/>
+
+
+</LinearLayout>
